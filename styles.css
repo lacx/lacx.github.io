@@ -1,0 +1,14 @@
+.div1 {
+    background-color: yellow;
+    padding: 10px;
+}
+
+.div1:hover {
+    background-color: red;
+}
+
+@media(hover: hover) and (pointer: fine) {
+    .div1:hover {
+        background: green;
+    }
+}
